@@ -21,6 +21,9 @@
 		A3985ED9185B45CC00090C65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3985EBB185B45CC00090C65 /* UIKit.framework */; };
 		A3985EE1185B45CC00090C65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3985EDF185B45CC00090C65 /* InfoPlist.strings */; };
 		A3985EE3185B45CC00090C65 /* RightColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3985EE2185B45CC00090C65 /* RightColorTests.m */; };
+		A3985EEE185B4A9D00090C65 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3985EED185B4A9D00090C65 /* ColorCell.m */; };
+		A3985EF1185B4B6E00090C65 /* GameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A3985EF0185B4B6E00090C65 /* GameBoard.m */; };
+		A3985EF4185B516200090C65 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3985EF3185B516200090C65 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		A3985EDE185B45CC00090C65 /* RightColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RightColorTests-Info.plist"; sourceTree = "<group>"; };
 		A3985EE0185B45CC00090C65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3985EE2185B45CC00090C65 /* RightColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightColorTests.m; sourceTree = "<group>"; };
+		A3985EEC185B4A9D00090C65 /* ColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCell.h; sourceTree = "<group>"; };
+		A3985EED185B4A9D00090C65 /* ColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCell.m; sourceTree = "<group>"; };
+		A3985EEF185B4B6E00090C65 /* GameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		A3985EF0185B4B6E00090C65 /* GameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoard.m; sourceTree = "<group>"; };
+		A3985EF2185B516200090C65 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A3985EF3185B516200090C65 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				A3985ECD185B45CC00090C65 /* ViewController.m */,
 				A3985ECF185B45CC00090C65 /* Images.xcassets */,
 				A3985EBE185B45CC00090C65 /* Supporting Files */,
+				A3985EEC185B4A9D00090C65 /* ColorCell.h */,
+				A3985EED185B4A9D00090C65 /* ColorCell.m */,
+				A3985EEF185B4B6E00090C65 /* GameBoard.h */,
+				A3985EF0185B4B6E00090C65 /* GameBoard.m */,
+				A3985EF2185B516200090C65 /* GameViewController.h */,
+				A3985EF3185B516200090C65 /* GameViewController.m */,
 			);
 			path = RightColor;
 			sourceTree = "<group>";
@@ -250,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3985ECE185B45CC00090C65 /* ViewController.m in Sources */,
+				A3985EEE185B4A9D00090C65 /* ColorCell.m in Sources */,
+				A3985EF1185B4B6E00090C65 /* GameBoard.m in Sources */,
 				A3985EC8185B45CC00090C65 /* AppDelegate.m in Sources */,
+				A3985EF4185B516200090C65 /* GameViewController.m in Sources */,
 				A3985EC4185B45CC00090C65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
